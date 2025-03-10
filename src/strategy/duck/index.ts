@@ -1,2 +1,7 @@
+import Mallard from "./Mallard";
+import FlyRocketPowered from "./classes//FlyRocketPowered";
 
-console.log('duck...')
+const mallard = new Mallard();
+mallard.perfomFly();
+mallard.setFlyBehavior(new FlyRocketPowered());
+mallard.perfomFly();
